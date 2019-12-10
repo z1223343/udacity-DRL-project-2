@@ -11,7 +11,7 @@ Deep Deterministic Policy Gradient (DDPG) is an algorithm which concurrently lea
 
 ### Algorithm
 
-![DDPG algorithm from Spinning Up website](./images/DDPG.svg)
+![DDPG algorithm from Spinning Up website](assets/DDPG.svg)
 
 This algorithm screenshot is taken from the [DDPG algorithm from the Spinning Up website](https://spinningup.openai.com/en/latest/algorithms/ddpg.html)
 
