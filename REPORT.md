@@ -31,14 +31,13 @@ The code includes :
 - `Continuous Control Main.ipynb` : This Jupyter notebooks allows to instanciate and train the agent. More in details it allows to :
   - Prepare the Unity environment and Import the necessary packages 
   - Check the Unity environment
-  - Define a helper function to instanciate and train a DDPG agent
-  - Train an agent using DDPG (including Hyperparameters evaluation)
+  - Watch an untrained agent
+  - Train an agent using DDPG
   - Plot the score results
+  - Watch an smart agent
   
-  
-### DDPG parameters and results
 
-#### Methodology
+### Methodology
 
 As a starting point, the initial version of the DDPG agent used the parameters values described in the paper [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971). 
 
@@ -49,7 +48,7 @@ To improve the performance in this task, I did:
 - **using smaller Neural networks**
 - **adjust the learning rates used**
 
-#### Results
+### Results
 
 ![Training results](assets/training_results.png)
 
