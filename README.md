@@ -53,7 +53,7 @@ Be sure of install [Unity ML-Agents](https://github.com/Unity-Technologies/ml-ag
 
 Download a prebuilt simulator
 
-### Singe agent:
+### Single agent:
 - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
 - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
 - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
@@ -68,7 +68,7 @@ Place this file in the same directory as this repo content.
 
 
 ## Instructions
-Run the [`DDPG_Continuous_Control.ipynb`](https://github.com/doctorcorral/DRLND-p2-continuous/blob/master/DDPG_Continuous_Control.ipynb) notebook using the drlnd kernel to train the DDPG agent.
+Run the [`DDPG_Continuous_Control.ipynb`](Continuous Control Main.ipynb) notebook using the drlnd kernel to train the DDPG agent.
 
 Use `ddpg` function to perform the training. This function returns a dictionary containing relevant internal variables that can be fed again to this function to continue training where it was left. Play around with this, change hyper parameters in between training runs to train your own intuition.
 
