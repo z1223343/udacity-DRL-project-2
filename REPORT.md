@@ -43,7 +43,7 @@ The code includes :
 As a starting point, the initial version of the DDPG agent used the parameters values described in the paper [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971). 
 
 To improve the performance in this task, I did:
-- Increasing the number of steps per episode.
+- **Increasing the number of steps per episode.**
 - **Reducing the Sigma values** used in the Ornstein-Uhlenbeck noise process was another important change for the agent to start learning
 - **adding the batch normalization layer after the activation layer**
 - **using smaller Neural networks**
